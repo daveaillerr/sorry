@@ -1,0 +1,43 @@
+html{
+    background-color: black;
+
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white; 
+    font-size: 60px;
+    display: block;
+    position: absolute;
+
+}
+
+.buttonGroup{
+    margin-top: 150px;
+}
+button{
+    position:absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px; 
+    background-color: red;
+    border: none;
+}
+.button--no{
+    background-color: white;
+    right:50%;
+    
+}
+.button--yes{
+    background-color: red;
+    
+}
